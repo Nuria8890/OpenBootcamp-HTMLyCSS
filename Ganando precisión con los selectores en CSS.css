@@ -1,8 +1,7 @@
-#pan {
+#elemento-1 {
 color: red;
-font-size: 2rem;
 }
-#mercadona {
-    color: red;
+ul li#elemento-1 {
+    font-size: 2rem
     }
     

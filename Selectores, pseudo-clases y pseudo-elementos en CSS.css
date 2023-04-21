@@ -3,11 +3,23 @@ button{
     width: 150px;
     border-style: double;
     border-color: green;
-
+    background-color: red;
+}
+button span::after {
+    content: "Pasa por encima";
+}
+button::before{
+    content: "¡¡";
 }
 
-button :hover{
-    padding: 10px;
+button::after{
+    content: "!!";
+}
+button:hover{
     color: white;
     background-color: green;
+}
+
+button:hover span::after{
+    content: "Hecho";
 }

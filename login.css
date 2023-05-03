@@ -40,7 +40,7 @@
 	font-weight: 500;
 }
 .google-btn picture{
-	width: 35px;
+	width: 40px;
 	height: 35px;
 	background-color: #1A73E8;
 	border-radius: 2px;
@@ -49,7 +49,7 @@
 	padding: 0px;
 }
 .google-btn picture img{
-	width: 75%;
+	width: 80%;
 }
 
 .twitter-btn{
@@ -125,9 +125,14 @@ label input:focus{
 .checkbox-label{
 	display: flex;
 	flex-direction: row;
+	height: 50px;
+	width: 50px;
 }
 .checkbox-label span{
 	font-weight: 400;
+	height: 50px;
+	width: 300px;
+	margin: 0px 0px 0px 10px;
 }
 
 .submit-btn{
@@ -135,6 +140,7 @@ label input:focus{
 	font-weight: 500;
 	font-size: 14pt;
 	text-align: center;
+	margin: 10px;
 	padding: 10px;
 	border: none;
 	border-radius: 10px;

@@ -147,3 +147,8 @@ El fondo de los inputs tendrá un color #212121
 El fondo de los inputs cuando se hace hover será del color #454045
 
 Los textos tendrán un color blanco
+
+9-
+Crea un nuevo documento HTML con el título "Introducción a Bootstrap"
+
+Utilizando la página oficial getbootstrap.com, añade la última versión de Bootstrap a este documento HTML

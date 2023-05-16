@@ -1,0 +1,31 @@
+.padre{
+background-color: black;
+width: 500px;
+height: 500px;
+}
+
+.hijo{
+background-color: red;
+width: 50%;
+height: 50%; 
+animation: traslacion 4s forwards infinite alternate;  
+}
+
+.padre:hover .hijo{
+  animation-play-state: paused;  
+}
+
+@keyframes traslacion{
+    25%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

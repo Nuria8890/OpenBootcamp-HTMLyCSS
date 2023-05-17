@@ -18,7 +18,7 @@ body{
 .btn-modern:hover{
     cursor: pointer;
     transform: translateY(-5px);  
-    border-bottom: 2px solid rgb(30, 1, 56); 
     background-color: blueviolet;
-    color: aquamarine;   
+    color: aquamarine; 
+    box-shadow: 0 5px 10px rgb(30, 1, 56);  
 }

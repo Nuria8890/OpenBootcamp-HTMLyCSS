@@ -1,0 +1,35 @@
+.contenedor{
+    height: 1000px;
+}
+.sec-1{
+    background-color: antiquewhite;
+    border: solid 1px brown;
+    padding: 10px;
+    width: 6em;
+    gap: 4em;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.elemento{
+    background-color: gainsboro;
+    border: solid 1px brown;
+    padding: 10px;
+    color: brown;
+}
+.sec-ppal{
+    display: flex;
+    flex-grow: 2;
+}
+
+
+@media (max-width: 640px) {
+    .sec-1{
+        flex-direction: row;
+        width: 26rem;
+        gap: 5rem;
+        }
+    .elemento{
+
+    }
+}

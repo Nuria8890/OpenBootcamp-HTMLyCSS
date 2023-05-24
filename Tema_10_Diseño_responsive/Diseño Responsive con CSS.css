@@ -1,35 +1,60 @@
 .contenedor{
-    height: 1000px;
+    display: flex;
+    background-color: black;
+    height: 99vh;
 }
 .sec-1{
-    background-color: antiquewhite;
-    border: solid 1px brown;
+    background-color: orange;
+    border: solid 3px brown;
     padding: 10px;
-    width: 6em;
     gap: 4em;
-    display: flex;
-    flex-direction: column;
     margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;   
 }
 .elemento{
-    background-color: gainsboro;
-    border: solid 1px brown;
+    background-color: lightgreen;
+    border: solid 2px green;
     padding: 10px;
-    color: brown;
+    color: green;
+    width: 7em;
 }
 .sec-ppal{
+    flex-grow: 50;
+    background-color: pink;
+    border: solid 3px red;
+    margin: 10px;
     display: flex;
-    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+}
+.elemento-ppal{
+    background-color: lightblue;
+    border: solid 2px blue;
+    padding: 10px;
+    color: blue;
+    width: 7em;
+    height: 1.5em;
 }
 
 
 @media (max-width: 640px) {
+    .contenedor{
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+    }
     .sec-1{
         flex-direction: row;
-        width: 26rem;
+        width: 30rem;
+        height: 3rem;
         gap: 5rem;
-        }
-    .elemento{
+    }
 
+    .sec-ppal{
+        width: 90vw;
+        height: 50vh;
     }
 }

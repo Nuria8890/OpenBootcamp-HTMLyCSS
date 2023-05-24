@@ -1,5 +1,5 @@
 # OpenBootcamp-HTMLyCSS
-1-
+1- (Tema 1)
 Crea un nuevo documento HTML e implementa lo siguiente:
 
 Utiliza la etiqueta de título para poner en el título "Ejercicio de Introducción a HTML en OpenBootcamp"
@@ -17,7 +17,7 @@ Cada elemento de la lista tiene que ser un enlace
 El texto del enlace debe ser el título del vídeo
 
 
-2-
+2- (Tema 2)
 Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 
 El título debe ser "Ejercicio 02 - Formularios en HTML"
@@ -39,7 +39,7 @@ Un botón de envío
 Un botón de reset
 
 
-3-
+3- (Tema 2)
 Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 
 El título debe ser "Ejercicio 02/2 - Tablas en HTML"
@@ -51,7 +51,7 @@ Las columnas serán las siguientes: "Título", "Autor", "Año de publicación", 
 Debe tener tres entradas, que corresponderán a tus tres libros favoritos
 
 
-4-
+4- (Tema 3)
 Crea un nuevo documento HTML que cumpla los siguientes parámetros:
 
 Debe estar dividido en tres secciones (etiqueta)
@@ -83,7 +83,7 @@ Debes incluir una etiqueta de audio que reproduzca el audio que acabas de descar
 El audio debe mostrar los controles, reproducirse automáticamente y en bucle
 
 
-5-
+5- (Tema 4)
 Crea un nuevo documento HTML con el título "Ganando precisión con los selectores en CSS"
 
 Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
@@ -109,7 +109,7 @@ Modifica el CSS para que el primer elemento de cada lista se muestre de color ro
 A través del encadenamiento de selectores, haz que el primer elemento de la primera lista tenga un tamaño de letra de 2rem
 
 
-6-
+6- (Tema 5)
 Crea un nuevo documento HTML con el título "Disposición de elementos en CSS"
 
 Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
@@ -120,7 +120,7 @@ Las imágenes deben tener 300 píxeles de ancho
 
 Deben reagruparse (wrap) cuando el ancho del viewport cambia
 
-7-
+7- (Tema 6)
 Crea un nuevo documento HTML con el título "Selectores, pseudo-clases y pseudo-elementos en CSS"
 
 Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
@@ -131,7 +131,7 @@ Utiliza las pseudo-clases para que cuando se pase el ratón por encima de este b
 
 Utiliza los pseudo-elementos para cambiar el texto del botón a "¡Hecho!"
 
-8-
+8- (Tema 7)
 Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
 
 Replícalo exactamente igual, pero realiza una nueva versión en modo oscuro
@@ -148,12 +148,12 @@ El fondo de los inputs cuando se hace hover será del color #454045
 
 Los textos tendrán un color blanco
 
-9-
+9- (Tema 8)
 Crea un nuevo documento HTML con el título "Introducción a Bootstrap"
 
 Utilizando la página oficial getbootstrap.com, añade la última versión de Bootstrap a este documento HTML
 
-10-
+10- (Tema 9)
 Crea un nuevo documento HTML con el título "Animaciones y transiciones en CSS"
 
 Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
@@ -172,7 +172,7 @@ El color del texto cambie
 
 Todo esto con una transición de 0.4s
 
-11-
+11- (Tema 10)
 Crea un nuevo documento HTML con el título "Diseño Responsive con CSS"
 
 Crea un nuevo fichero CSS e impórtalo en el documento HTML principal
@@ -192,3 +192,22 @@ La barra lateral izquierda se muestre como una navegación en la parte inferior
 La disposición de los elementos de la barra lateral se vuelva horizontal
 
 (Tip: Trabaja con la propiedad flex-direction)
+
+12- (Tema 11)
+Crea un nuevo documento HTML con el título "Sistema grid de Bootstrap"
+
+Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este documento HTML
+
+Crea 6 div con un texto en su interior
+
+Utilizando únicamente el atributo class de cada uno de los div haz lo siguiente:
+
+Por defecto, cada elemento ocupará el ancho máximo
+
+Para viewports SM - cada fila contendrá 2 elementos
+
+Para viewports MD - cada fila contendrá 3 elementos
+
+Para viewports LG - cada fila contendrá 4 elementos
+
+Para viewports XL - cada fila contendrá 6 elementos

@@ -21,7 +21,7 @@
     padding: 10px;
     color: green;
     width: 7em;
-    height: 10%;
+    height: 20%;
     text-align: center;
 }
 .sec-ppal{
@@ -51,20 +51,22 @@
        flex-direction: column-reverse;
        align-items: center;
        justify-content: center;
-       max-width: 100vw;
-       max-height: 100vh;
+       width: 100vw;
+       height: 100vh;
     }
     .sec-1{
         flex-direction: row;
         width: 90vw;
-        height: 3rem;
-        gap: 5rem;
+        gap: 1em;
     }
     .sec-ppal{
         width: 90vw;
-        height: 10vh;
         justify-content: space-around;
     }
     .elemento{
         padding: 1em;
     }
+    .elemento-ppal{
+        height: 15%;
+    }
+}
